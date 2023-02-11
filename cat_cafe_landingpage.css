@@ -1,0 +1,93 @@
+#nav-title{
+        color: pink;
+        font-size: 30px;
+        font-weight: 800;
+}
+#navbar-section{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 70%;
+}
+@media only screen and (min-width:1225px) and (max-width: 1279px) {
+    #navbar-section {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+    #navbar-section {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+#about-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#about-img{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media only screen and (max-width: 1224px) {
+    #about-img{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        
+    } 
+    #about-us{
+        display: flex;
+        flex-direction: column-reverse;
+       
+        justify-content: space-between;
+        padding: 70px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+
+#footer-section{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+#email{
+    font-size: medium;
+}
+
+@media only screen and (max-width: 480px) {
+    #footer-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
